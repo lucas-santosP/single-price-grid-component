@@ -151,15 +151,20 @@ body {
 .btn {
   outline: none;
   cursor: pointer;
-  margin: 1.5rem auto 0 auto;
-  height: 2.8rem;
+  margin: 2rem auto 0 auto;
+  height: 3.5rem;
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
   width: 100%;
   color: var(--clr-white);
   background-color: var(--clr-yellow);
   border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.75);
 }
 .btn:hover {
-  color: rgb(71, 71, 71);
+  background-color: hsl(71, 83%, 61%);
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
