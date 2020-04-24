@@ -20,7 +20,7 @@
 }
 body {
   background-color: var(--clr-gray);
-  padding: 2rem 0;
+  padding: 10vh 0;
 }
 .flex-container {
   font-family: var(--ff-pattern);
